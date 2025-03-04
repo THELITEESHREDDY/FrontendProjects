@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout</title>
+        <meta charset="UTF-8">
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <meta name="viewport" content="width=device-width initial-scale=1.0" >
+    </head>
+    <body>
+        <div class="container size-full">
+            <div class="mainContainer  w-full h-screen relative"> 
+                <nav class="h-16 bg-blue">
+                    <i>Logo</i>
+                </nav>
+                <div class="smallDivs absolute top-[30%] flex justify-center space-x-6 h-[35%] w-[100%] md:max-w-auto">
+                    <div class="smallDiv flex pt-8 p-2 flex-col items-center h-full w-[20%] bg-white md:max-w-[50%]">
+                        <i class="h-[50%] w-[100%] bg-blue-400 ">Logo</i>
+                        <p class="text-2xl mt-6 font-semibold">Main Office</p>
+                        <p class="text-gray-400">Vijayawada, Andhra Pradesh, India</p>
+                    </div>
+                    <div class="smallDiv flex pt-8 p-2 flex-col items-center h-full w-[20%] bg-white">
+                        <i class="h-[50%] w-[100%] bg-blue-400 ">Logo</i>
+                        <p class="text-2xl mt-6 font-semibold">Main Office</p>
+                        <p class="text-gray-400">Vijayawada, Andhra Pradesh, India</p>
+                    </div>
+                    <div class="smallDiv flex pt-8 p-2 flex-col items-center h-full w-[20%] bg-white">
+                        <i class="h-[50%] w-[100%] bg-blue-400 ">Logo</i>
+                        <p class="text-2xl mt-6 font-semibold">Main Office</p>
+                        <p class="text-gray-400">Vijayawada, Andhra Pradesh, India</p>
+                    </div>
+                    <div class="smallDiv flex pt-8 p-2 flex-col items-center h-full w-[20%] bg-white">
+                        <i class="h-[50%] w-[100%] bg-blue-400 ">Logo</i>
+                        <p class="text-2xl mt-6 font-semibold">Main Office</p>
+                        <p class="text-gray-400">Vijayawada, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+                <div class="w-full h-[30%] bg-pink-300"></div>
+                <div class="w-full h-screen bg-blue-400 flex justify-center">
+                    <div class="content mt-[18%] w-[40%]">
+                        <p class="text-3xl pb-4 text-white font-bold ">Get In Touch</p>
+                        <p class="text-2xl pb-5 text-white font-bold italic">We can ensure reliability,
+                            low cost fares and most important, with safety and comfort in mind.
+                        </p>
+                        <p class="text-white " >Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia! 
+                            Maecenas gravida lacus.
+                            Lorem etiam sit amet convallis erat.
+                        </p>
+                        <div class="socialMedia h-6 w-full">
+                            <i>facebook</i>
+                            <i>Twittwer</i>
+                            <i>Instagram</i>
+                            <i>LinkedIN</i>
+                        </div>
+                    </div>
+                    <div class="loginForm mt-[18%] w-[40%] text-white flex flex-col ">
+                        <label for="fname" class="font-bold ">Name</label> 
+                        <input type="text" placeholder="Full Name" required class="border-0 border-b-2 border-white   focus:outline-none pt-4 w-full sm:w-[40%] md:w-[60%]">
+                        <label for="email" class="font-bold pt-2">E-mail</label>
+                        <input type="emial" placeholder="E-mail" required class="border-0 border-b-2 bordeer-white focus:outline-none pt-4"> 
+                        <label for="message" class="font-bold pt-4">message</label>
+                        <input type="text" placeholder="Enter a Message" class="border-0 border-b-2 h-24 focus:outline-none">
+                        <button type="button" class="bg-white text-blue-400 w-fit px-24 py-2 mt-2 ">Send</button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </body>
+</html>
